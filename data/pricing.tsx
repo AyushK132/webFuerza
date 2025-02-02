@@ -29,9 +29,10 @@ export default {
         {
           title: 'Connect to personalized domain if needed',
         },
-
+        
         
       ],
+      action: "Sign Up"
      
     },
     {
@@ -73,6 +74,7 @@ export default {
           iconColor: 'green.500',
         },
       ],
+      action: "Sign Up"
      
     },
     {
@@ -117,6 +119,7 @@ export default {
           iconColor: 'green.500',
         },
       ],
+      action: "Sign Up"
      
     },
   ],
