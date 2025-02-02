@@ -29,11 +29,12 @@ export default {
         {
           title: 'Connect to personalized domain if needed',
         },
-        
+
         
       ],
-      action: "Sign Up"
-     
+      action: {
+        href: '#',
+      },
     },
     {
       id: 'bootstrap',
@@ -74,8 +75,9 @@ export default {
           iconColor: 'green.500',
         },
       ],
-      action: "Sign Up"
-     
+      action: {
+        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Single%20license',
+      },
     },
     {
       id: 'startup',
@@ -119,8 +121,9 @@ export default {
           iconColor: 'green.500',
         },
       ],
-      action: "Sign Up"
-     
+      action: {
+        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+      },
     },
   ],
 }

@@ -71,7 +71,9 @@ export const Pricing: React.FC<PricingProps> = (props) => {
                   ),
                 )}
               </PricingFeatures>
-              
+              <ButtonLink colorScheme="primary" {...plan.action}>
+                {plan.action.label || 'Sign Up'}
+              </ButtonLink>
             </PricingBox>
           ))}
         </SimpleGrid>
