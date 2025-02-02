@@ -59,27 +59,26 @@ import faq from '#data/faq'
 import pricing from '#data/pricing'
 
 
-export const meta: Metadata = {
-  title: 'Saas UI Landingspage',
-  description: 'Free SaaS landingspage starter kit',
-}
+
+
+import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
     <Box>
+      <Head>
+        <title>Saas UI Landingspage</title>
+        <meta name="description" content="Free SaaS landingspage starter kit" />
+      </Head>
       <HeroSection />
-
       <HighlightsSection />
-
       <FeaturesSection />
-
-
       <PricingSection />
-
       <FaqSection />
     </Box>
-  )
+  );
 }
+
 
 const HeroSection: React.FC = () => {
   return (
